@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sshakusora.create_schematic_i18n.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.create_schematic_i18n.refmap.json",
+  "server": [
+  ],
+  "client": [
+    "ClientSchematicLoaderMixin",
+    "SchematicItemMixin",
+    "SchematicTableScreenMixin"
+  ],
+  "mixins": [
+  ]
+}
