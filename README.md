@@ -53,11 +53,11 @@ Here's a quick visual comparison to demonstrate the mod's effect:
 
 ### Before: Raw Schematic Filenames
 
-![Before](https://github.com/SShakusora/CreateSchematici18n/blob/1.20.1/Comparison Screenshots/before.PNG?raw=true)
+![Before](https://github.com/SShakusora/CreateSchematici18n/blob/1.20.1/Comparison%20Screenshots/before.PNG?raw=true)
 
 ### After: Localized Schematic Names
 
-![After](https://github.com/SShakusora/CreateSchematici18n/blob/1.20.1/Comparison Screenshots/after.PNG?raw=true)
+![After](https://github.com/SShakusora/CreateSchematici18n/blob/1.20.1/Comparison%20Screenshots/after.PNG?raw=true)
 
 ## Installation
 
