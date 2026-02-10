@@ -12,5 +12,6 @@
     "SchematicTableScreenMixin"
   ],
   "mixins": [
+    "ServerSchematicLoaderMixin"
   ]
 }

@@ -32,7 +32,7 @@ public class ClientSchematicLoaderMixin {
                     })
                     .forEach(path -> {
                         Path relativePath = rootPath.relativize(path);
-                        String rawName = relativePath.toString().replace("\\", ".");
+                        String rawName = relativePath.toString().replace("\\", "/");
                         String key = rawName.endsWith(".nbt") ? rawName.substring(0, rawName.length() - 4) : rawName;
 
                         this.availableSchematics.add(Component.translatable(key));
