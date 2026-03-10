@@ -13,7 +13,12 @@ import java.nio.file.*;
 import java.util.List;
 import java.util.stream.Stream;
 
-@Mixin(ClientSchematicLoader.class)
+/**
+ * Mixin to override the schematic loading logic to support subdirectories.
+ * * Note: This Mixin clears the 'availableSchematics' list to prevent duplicates,
+ * which intentionally overrides/breaks the logic added by 'Create: Connected'.
+ */
+@Mixin(value = ClientSchematicLoader.class, priority = 2000)
 public class ClientSchematicLoaderMixin {
     @Shadow private List<Component> availableSchematics;
 

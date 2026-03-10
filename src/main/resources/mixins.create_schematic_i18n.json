@@ -2,6 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.sshakusora.create_schematic_i18n.mixin",
+  "plugin": "com.sshakusora.create_schematic_i18n.mixin.MixinPlugin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "mixins.create_schematic_i18n.refmap.json",
   "server": [
