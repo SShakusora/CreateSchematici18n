@@ -126,6 +126,7 @@ dependencies {
 
     implementation "curse.maven:create-328085:7408951"
     implementation "net.createmod.ponder:ponder-neoforge:1.0.81+mc1.21.1"
+    implementation "curse.maven:create-connected-947914:7593837"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
